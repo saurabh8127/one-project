@@ -36,10 +36,10 @@
                         <h3 class="widget-title mb--35 mb-sm--20">Pages</h3>
                         <div class="footer-widget">
                             <ul class="footer-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="our-projects.html">Project</a></li>
-                                <li><a href="blog.html">News</a></li>
+                                <li><a href="{{route('index')}}">Home</a></li>
+                                <li><a href="{{route('services')}}">Services</a></li>
+                                <li><a href="{{route('project')}}">Project</a></li>
+                                <li><a href="{{route('blog')}}">News</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <p class="copyright-text">&copy; Contixs 2021 Made With <i class="fa fa-heart"></i> BY Hasthemes</p>
+                    <p class="copyright-text">&copy;  2021 Made With <i class="fa fa-heart"></i> BY Saurabh</p>
                 </div>
             </div>
         </div>
