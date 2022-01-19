@@ -21,11 +21,14 @@ class pagesController extends Controller
     public function project(){
       return view("Pages.project");
     }
+    
 
     public function blog(){
       return view("Pages.blog");
     }
-
+    public function singleblog(){
+      return view("Pages.singleblog");
+    }
     
     public function contact(){
       return view("Pages.contact");

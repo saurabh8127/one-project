@@ -77,30 +77,30 @@
                                                 </a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item-has-children">
-                                                        <a href="blog.html">
+                                                        <a href="{{route('blog')}}">
                                                             <span data-hover="Blog" class="mm-text">Blog</span>
                                                         </a>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="blog-01-column.html">
+                                                                <a href="{{route('blog')}}">
                                                                     <span data-hover="01 Column"
                                                                         class="mm-text">01 Column</span>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-02-columns.html">
+                                                                <a href="{{route('blog')}}">
                                                                     <span data-hover="02 Columns"
                                                                         class="mm-text">02 Columns</span>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-03-columns.html">
+                                                                <a href="{{route('blog')}}">
                                                                     <span data-hover="03 Columns"
                                                                         class="mm-text">03 Columns</span>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-left-sidebar.html">
+                                                                <a href="{{route('blog')}}">
                                                                     <span data-hover="Left Sidebar"
                                                                         class="mm-text">Left Sidebar</span>
                                                                 </a>
@@ -108,40 +108,40 @@
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item-has-children">
-                                                        <a href="blog-details-image.html">
+                                                        <a href="{{route('singleblog')}}">
                                                             <span data-hover="Single Blog"
                                                                 class="mm-text">Single Blog</span>
                                                         </a>
-                                                        <ul class="sub-menu">
+                                                        {{-- <ul class="sub-menu">
                                                             <li>
-                                                                <a href="blog-details-audio.html">
+                                                                <a href="{{route('singleblog')}}">
                                                                     <span data-hover="Audio Blog Details"
                                                                         class="mm-text">Audio Blog
                                                                         Details</span>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-details-gallery.html">
+                                                                <a href="{{route('singleblog')}}">
                                                                     <span data-hover="Gallery Blog Details"
                                                                         class="mm-text">Gallery Blog
                                                                         Details</span>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-details-image.html">
+                                                                <a href="{{route('singleblog')}}">
                                                                     <span data-hover="Image Blog Details"
                                                                         class="mm-text">Image Blog
                                                                         Details</span>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-details-video.html">
+                                                                <a href="{{route('singleblog')}}">
                                                                     <span data-hover="Video Blog Details"
                                                                         class="mm-text">Video Blog
                                                                         Details</span>
                                                                 </a>
                                                             </li>
-                                                        </ul>
+                                                        </ul> --}}
                                                     </li>
                                                 </ul>
                                             </li>

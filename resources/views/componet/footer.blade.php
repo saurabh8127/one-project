@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <p class="copyright-text">&copy;  2021 Made With <i class="fa fa-heart"></i> BY Saurabh</p>
+                    <p class="copyright-text">&copy;  2021 Made <i class="fa fa-heart"></i> BY Saurabh</p>
                 </div>
             </div>
         </div>
